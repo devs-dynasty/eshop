@@ -1,31 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Eshop | Home</title>
-    <link rel="stylesheet" href="./css/style.css">
-    <script src="./js/script.js"></script>
+    <link rel="stylesheet" href="./css/style.css" />
+    <script src="./js/script.js" defer></script>
 
     <!-- Google Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap"
+      rel="stylesheet"
+    />
 
     <!-- Boxicons -->
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-</head>
-<body>
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
     <header class="navbar-container">
-        <div>
-            <a href="" class="logo">
-                <img src="./public/img/eshop_logo.png" alt="Eshop Logo">
-            </a>
+      <div>
+        <a href="" class="logo">
+          <img src="./public/img/eshop_logo-2.png" alt="Eshop Logo" />
+        </a>
+      </div>
+      <div class="search">
+        <i class="bx bx-search"></i>
+        <input
+          type="text"
+          class="search-bar"
+          placeholder="What are you looking for?"
+        />
+        <button class="search-btn">Search</button>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="hero-content">
+          <h1>Welcome to Eshop</h1>
+          <p>The best place to shop for your favorite products</p>
         </div>
-        <div class="search">
-            <i class='bx bx-search'></i>
-            <input type="text" class="search-bar" placeholder="What are you looking for?">
-            <button class="search-btn"> Search </button>
+        <div class="hero-image">
+          <img src="./public/img/hero.png" alt="Hero Image" />
         </div>
-</body>
+      </section>
+
+      <section class="products" id="product-section">
+        <h2>Products</h2>
+        <div class="product-container" id="product-container"></div>
+      </section>
+    </main>
+  </body>
 </html>
