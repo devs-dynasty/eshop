@@ -29,7 +29,7 @@ const fetchProduct = async () => {
       const productRate = document.createElement('li');
 
       // Add classes to the elements
-      productDiv.className = 'product';
+      productDiv.className = 'product-item';
       productImg.className = 'product-img';
       productTitle.className = 'product-name';
       productPrice.className = 'product-price';
